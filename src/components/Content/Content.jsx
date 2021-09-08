@@ -1,6 +1,7 @@
+import classes from "./Content.module.css";
 function Content() {
     return(
-      <div>
+      <div className={classes.wrapper}>
         <h1>hello</h1>
         <p>Content</p>
       </div>
