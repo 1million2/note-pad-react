@@ -9,7 +9,7 @@ function App() {
       <div className="content">
         <p>empty list</p>
         <ul>
-          <li>Task 1</li>
+          <li>Task 2</li>
           <li>Task 1</li>
           <li>Task 1</li>
           <li>Task 1</li>
