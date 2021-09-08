@@ -1,27 +1,15 @@
 import './App.css';
+import Header from './components/Header';
+import Content from './components/Content';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <header>
-        <h1>Notepad</h1>
-      </header>
+      <Header />
       <hr></hr>
-      <div className="content">
-        <p>empty list</p>
-        <ul>
-          <li>Task 4</li>
-          <li>Task 1</li>
-          <li>Task 1</li>
-          <li>Task 1</li>
-          <li>Task 1</li>
-        </ul>
-      </div>
+      <Content />
       <hr></hr>
-      <footer>
-        <button>Next</button>
-        <p className="page-number">page 1</p>
-        <button>Previos</button>
-      </footer>
+      <Footer />
     </div>
   );
 }
