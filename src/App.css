@@ -9,14 +9,14 @@
 a {
     color: #333;
 }
-button {
-    cursor: pointer;
-}
 .App {
     background-color: antiquewhite;
     max-width: 800px;
     margin: 0 auto;
     padding: 10px;
+}
+.wrapper {
+    min-height: 380px;
 }
 ul {
     list-style: none;

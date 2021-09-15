@@ -1,23 +1,16 @@
-.item {
+.page {
     display: flex;
+    flex-direction: column;
+    row-gap: 20px;
     padding: 10px;
-    color: #fff;
-    border-bottom: solid 1px rgb(126, 126, 126);
+    background-color: rgb(133, 182, 184);
 }
-.content {
-    width: 70%;
-}
-.aside {
+.page div {
     display: flex;
     flex: 1 1 auto;
-    flex-direction: column;
-    align-items: flex-end;
 }
-
-.date {
-    font-size: 13px;
-    text-align: right;
-    color: rgb(228, 228, 228);
+h4,h2 {
+    width: 80%;
 }
 .btn {
     cursor: pointer;

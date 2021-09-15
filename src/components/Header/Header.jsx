@@ -7,8 +7,8 @@ function Header() {
         </div>
         <form>
           <input type="text" placeholder="Заголовок"></input>
-          <input type="text" placeholder="Описание"></input>
-          <button >add</button>
+          <textarea type="text" placeholder="Описание"></textarea>
+          <button className={classes.btn}>add</button>
         </form>
       </div>
     );

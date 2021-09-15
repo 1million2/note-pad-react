@@ -1,13 +1,16 @@
-// import classes from "./Note-items.module.css";
-import Item from "./Note-item/Note-item";
+// список элементов
+import classes from "./Note-items.module.css";
+import NoteItem from "./Note-item/Note-item";
 
-function Items () {
+function NoteItems() {
     return (
-        <div>
-            <Item />
+        <div className={classes.items}>
+            <NoteItem name="eduard"/>
+            <NoteItem />
+            <NoteItem />
         </div>
-        
+
     );
 }
 
-export default Items;
+export default NoteItems;

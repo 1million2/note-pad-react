@@ -4,8 +4,8 @@ function Footer() {
         <div className={classes.footer}>
             <p>Footer</p>
             <div>
-                <button>prev</button>
-                <button>next</button>
+                <button className={classes.btn}>prev</button>
+                <button className={classes.btn}>next</button>
             </div>
         </div>
 

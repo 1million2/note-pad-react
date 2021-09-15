@@ -5,7 +5,19 @@
     flex-direction: column;
     column-gap: 10px;
 }
+
 .footer div {
     display: flex;
     column-gap: 10px;
+}
+.btn {
+    cursor: pointer;
+    border: solid 2px rgb(199, 199, 199);
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    padding: 5px;
+    width: 50px;
+}
+.btn:hover {
+    background-color: rgb(209, 199, 175);
 }
