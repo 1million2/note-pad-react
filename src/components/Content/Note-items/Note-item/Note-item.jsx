@@ -6,11 +6,12 @@ function NoteItem(props) {
   return (
     <div className={classes.item}>
       <div className={classes.content}>
-        <p>{props.name}</p>
-        <p>Описание</p>
+        <p>Заголовок: {props.name}</p>
+        <p>Описание: {props.descript}</p>
+        <p>id: {props.id}</p>
       </div>
       <div className={classes.aside}>
-        <NavLink to="/editPage" className={classes.btn}>edit</NavLink>
+        <NavLink to="/edit-page" className={classes.btn}>edit</NavLink>
         <p className={classes.date}>дата создания: 12.09.2021</p>
         <p className={classes.date}>дата ред.: 12.09.2021</p>
       </div>

@@ -12,7 +12,7 @@ function App() {
         <Header />
         <div className="wrapper">
           <Route path="/content" component={Content} />
-          <Route path="/editPage" component={EditPage} />
+          <Route path="/edit-page" component={EditPage} />
         </div>
         <Footer />
       </div>
